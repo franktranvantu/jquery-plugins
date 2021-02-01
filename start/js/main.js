@@ -32,3 +32,5 @@ $('.work').on('sticky-start', function () {
 $('.work').on('sticky-end', function () {
   $('.email-text').remove();
 });
+
+$('.slides').slick();

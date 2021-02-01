@@ -33,4 +33,10 @@ $('.work').on('sticky-end', function () {
   $('.email-text').remove();
 });
 
-$('.slides').slick();
+$('.slides').slick({
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  dots: true
+});
