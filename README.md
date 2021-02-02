@@ -1,0 +1,1 @@
+Add new style z-index into .is-sticky .header selector in main.css
